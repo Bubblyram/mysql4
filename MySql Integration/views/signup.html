@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mysql
+        </title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <form action="/check"method="POST">
+            <h1>Misc.Information</h1>
+            <table>
+                <tr>
+                    <th>Annual Household Income*</th>
+                    <td>
+                        <select name="annual">
+                            <option>
+                                Select
+                            </option>
+                            <option value="10000-50000">
+                                10000-50000
+                            </option>
+                            <option value="50000-100000">
+                                50000-100000
+                            </option>
+                            <option value="100000-1000000">
+                                100000-1000000
+                            </option>
+                            <option value="1000000-5000000">
+                                1000000-5000000
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Interests
+                    </th>
+                    <th>
+                        <input type="checkbox" name="c1" value="Shopping/fashion">Shopping/fashion<input type="checkbox" name="c1" value="Sports">Sports<input type="checkbox" name="c1" value="Travel">Travel
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Eye Color
+                    </th>
+                    <td>
+                        <input type="checkbox" name="c2" value="Red">Red<input type="checkbox" name="c2" value="Green">Green<input type="checkbox" name="c2" value="Brown">Brown<input type="checkbox" name="c2" value="Blue Gold">Blue Gold
+                    </td>
+                </tr>
+            </table>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
